@@ -1,5 +1,6 @@
-Chapter I
 Introduction
+
+
 You will discover a popular and versatile C function: printf(). This exercise is a great
 opportunity to improve your programming skills. It is of moderate difficulty.
 You will discover variadic functions in C.
@@ -18,6 +19,7 @@ Here are the requirements:
 • You must use the command ar to create your library.
 Using the libtool command is forbidden.
 • Your libftprintf.a has to be created at the root of your repository
+
 
 You have to implement the following conversions:
 
