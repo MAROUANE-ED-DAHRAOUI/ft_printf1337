@@ -1,34 +1,66 @@
-Introduction
+# Ft_printf
 
+This is the second project of the **`42Cursus`**. <br />
+The goal of this project is pretty straightforward. recoding `printf()` (not the whole function).
 
-You will discover a popular and versatile C function: printf(). This exercise is a great
-opportunity to improve your programming skills. It is of moderate difficulty.
-You will discover variadic functions in C.
-The key to a successful ft_printf is a well-structured and extensible code.
+**``` Note: I haven't shared the PDF of this project, as well as, I haven't explained anything due to school privacy reasons!```**
 
+This project consists of two parts:
+- **Mandatory part**
+- **Bonus Part**
 
-The prototype of ft_printf() is:
+> Note: The **Bonus Part** is not that necessary to validate the project, but it gives some extra XPs and days for the **`The Blackhole`**.
+---
 
-int ft_printf(const char *, ...);
+# Mandatory Part
 
-Here are the requirements:
+To implement your own `printf()` you need to go over each one of these string formats:
 
-• Don’t implement the buffer management of the original printf().
-• Your function has to handle the following conversions: cspdiuxX%
-• Your function will be compared against the original printf().
-• You must use the command ar to create your library.
-Using the libtool command is forbidden.
-• Your libftprintf.a has to be created at the root of your repository
+  - `%c` Prints a single character.
+  - `%s` Prints a string (as defined by the common C convention).
+  - `%p` The void * pointer argument has to be printed in hexadecimal format.
+  - `%d` Prints a decimal (base 10) number.
+  - `%i` Prints an integer in base 10.
+  - `%u` Prints an unsigned decimal (base 10) number.
+  - `%x` Prints a number in hexadecimal (base 16) lowercase format.
+  - `%X` Prints a number in hexadecimal (base 16) uppercase format.
+  •-`%%` Prints a percent sign.
+---
 
+# What are variadic functions
 
-You have to implement the following conversions:
+To have this project done you must learn a new `C Concept` which is **`Variadic Functions`**.
 
-• %c Prints a single character.
-• %s Prints a string (as defined by the common C convention).
-• %p The void * pointer argument has to be printed in hexadecimal format.
-• %d Prints a decimal (base 10) number.
-• %i Prints an integer in base 10.
-• %u Prints an unsigned decimal (base 10) number.
-• %x Prints a number in hexadecimal (base 16) lowercase format.
-• %X Prints a number in hexadecimal (base 16) uppercase format.
-• %% Prints a percent sign
+in `C Programming Language` function takes a known number of params to deal with, but what if we want to pass an unknown number of params and let the function handle all of them? it's cool right :)?
+
+_with `Variadic Functions` this problem would be fixed._
+
+Here is how to declare a `Variadic Function` that takes a variable number of params:
+
+```c
+void variadic_function(char *s, ...)
+```
+
+let's break this example down so we can see what this weird function does.
+
+first of all, this function returns nothing, the first parameter is a string but the second one `...` is something to declare to the function that we are about to accept a variable number of params.
+
+learn more about `Variadic Functions` via [`Variadic Functions in c`](https://www.geeksforgeeks.org/variadic-functions-in-c/#:~:text=Variadic%20functions%20are%20functions%20that,of%20arguments%20can%20be%20passed.)
+
+---
+
+# Things you will learn in this project
+
+> Variadic Functions
+
+> Number System Conversion
+
+> Implementation of your own `printf()` function
+
+> Makefile
+
+> How to use `printf()` properly
+
+> Pointers
+
+---
