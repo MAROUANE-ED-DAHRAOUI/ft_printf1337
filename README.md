@@ -1,4 +1,4 @@
-![Quotation-Friedrich-Nietzsche-Sometimes-people-don-t-want-to-hear-the-truth-because-34-72-80](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.invicti.com%2Fblog%2Fweb-security%2Fformat-string-vulnerabilities%2F&psig=AOvVaw1Qjzm0KvgVfV4oN-aWy_l7&ust=1706981581620000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOCK3IiYjYQDFQAAAAAdAAAAABAa)
+![Quotation-Friedrich-Nietzsche-Sometimes-people-don-t-want-to-hear-the-truth-because-34-72-80](https://cdn.invicti.com/app/uploads/2022/06/28120919/format-string-vulnerabilities.png)
 
 # Ft_printf
 
